@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/js/scripts.js" defer></script>
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Form Calculator</title>
+</head>
+<body>
+  <h1>Form Calculator</h1>
+  
+  <!-- Form to grab user input -->
+  <form id="num-form">
+    <!-- Grabs Number 1 -->
+    <label for="number1">Enter Number 1:</label>
+    <input id="number1" type="number">
+    <!-- Grabs Number 2 -->
+    <label for="number2">Enter Number 2:</label>
+    <input id="number2" type="number">
+
+  <!-- Form to grab operator type -->
+ 
+    <select id="opval">
+      <option>select</option>
+      <option>add</option>
+      <option>subtract</option>
+      <option>multiply</option>
+      <option>divide</option>
+    </select>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <h3>Your result is:</h3>
+  <p id="display"></p>
+
+
+
+
+</body>
+</html>
